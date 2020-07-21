@@ -1,0 +1,10 @@
+section{
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+}
+
+section > div {
+    padding: 35px;
+}

@@ -1,0 +1,116 @@
+[
+	{
+		"type": "language",
+		"name": "Javascript",
+		"link": "https://developer.mozilla.org/pt-BR/docs/Web/JavaScript",
+		"image": "https://image.flaticon.com/icons/svg/919/919828.svg"
+	},
+	{
+		"type": "framework",
+		"name": "ReactJS",
+		"link": "https://pt-br.reactjs.org/",
+		"image": "https://image.flaticon.com/icons/svg/919/919851.svg"
+	},
+	{
+		"type": "framework",
+		"name": "React Native",
+		"link": "https://reactnative.dev/docs/getting-started",
+		"image": "https://img.icons8.com/nolan/64/react-native.png"
+	},
+	{
+		"type": "framework",
+		"name": "Angular",
+		"link": "https://angular.io/docs",
+		"image": "https://upload.wikimedia.org/wikipedia/commons/thumb/c/cf/Angular_full_color_logo.svg/512px-Angular_full_color_logo.svg.png"
+	},
+	{
+		"type": "framework",
+		"name": "VueJS",
+		"link": "https://br.vuejs.org/v2/guide/index.html",
+		"image": "https://upload.wikimedia.org/wikipedia/commons/9/95/Vue.js_Logo_2.svg"
+	},
+	{
+		"type": "language",
+		"name": "Python",
+		"link": "https://docs.python.org/3/",
+		"image": "https://image.flaticon.com/icons/svg/919/919852.svg"
+	},
+	{
+		"type": "framework",
+		"name": "Django",
+		"link": "https://docs.djangoproject.com/pt-br/3.0/",
+		"image": "https://cdn.iconscout.com/icon/free/png-64/django-2-282855.png"
+	},
+	{
+		"type": "language",
+		"name": "Java",
+		"link": "https://www.oracle.com/technetwork/pt/java/javase/documentation/index.html",
+		"image": "https://image.flaticon.com/icons/svg/919/919854.svg"
+	},
+	{
+		"type": "language",
+		"name": "PHP",
+		"link": "https://www.php.net/manual/pt_BR/index.php",
+		"image": "https://image.flaticon.com/icons/svg/919/919830.svg"
+	},
+	{
+		"type": "language",
+		"name": "C++",
+		"link": "https://docs.microsoft.com/pt-br/cpp/?view=vs-2019",
+		"image": "https://image.flaticon.com/icons/svg/919/919841.svg"
+	},
+	{
+		"type": "language",
+		"name": "C#",
+		"link": "https://docs.microsoft.com/pt-br/dotnet/csharp/",
+		"image": "https://seeklogo.com/images/C/c-sharp-c-logo-02F17714BA-seeklogo.com.png"
+	},
+	{
+		"type": "framework",
+		"name": ".NET",
+		"link": "https://docs.microsoft.com/pt-br/dotnet/",
+		"image": "http://h6solutions.com/images/Microsoft__NET_logo.png"
+	},
+	{
+		"type": "language",
+		"name": "Ruby",
+		"link": "https://www.ruby-lang.org/pt/documentation/",
+		"image": "https://image.flaticon.com/icons/svg/919/919842.svg"
+	},
+	{
+		"type": "framework",
+		"name": "Ruby on Rails",
+		"link": "https://rubyonrails.org/",
+		"image": "https://pbs.twimg.com/media/CZGHPChUAAA3jqE?format=png&name=small"
+	},
+	{
+		"type": "language",
+		"name": "Kotlin",
+		"link": "https://kotlinlang.org/",
+		"image": "https://upload.wikimedia.org/wikipedia/commons/thumb/7/74/Kotlin-logo.svg/512px-Kotlin-logo.svg.png"
+	},
+	{
+		"type": "language",
+		"name": "Dart",
+		"link": "https://dart.dev/",
+		"image": "https://seeklogo.com/images/D/dart-logo-FDA1939EC4-seeklogo.com.png"
+	},
+	{
+		"type": "language",
+		"name": "Node.JS",
+		"link": "https://nodejs.org/pt-br/docs/",
+		"image": "https://pplware.sapo.pt/wp-content/uploads/2016/05/nodejs_04_thumb.jpg"
+	},
+	{
+		"type": "language",
+		"name": "Go",
+		"link": "http://www.golangbr.org/doc/",
+		"image": "https://static.javatpoint.com/go/images/go-tutorial.jpg"
+	},
+	{
+		"type": "framework",
+		"name": "Echo",
+		"link": "https://echo.labstack.com/",
+		"image": "https://cdn.labstack.com/images/echo-logo.svg"
+	}
+]
