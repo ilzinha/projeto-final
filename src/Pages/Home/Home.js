@@ -1,38 +1,32 @@
 import React, { Component } from 'react';
 import MainTitle from '../../Components/MainTitle/MainTitle'
-import Button from '../../Components/Button/Button';
+// import Button from '../../Components/Button/Button';
 import GeneralTemplate from '../../Template/GeneralTemplate/GeneralTemplate';
 import TextComponent from '../../Components/TextComponent/TextComponent';
 
-class Home extends Component {
+import './Home.css';
 
-    testeBtn = () => { console.log('cliquei no sobre') }
-    testeBtn2 = () => { console.log('cliquei no docs') }
+class Home extends Component {
 
     render() {
         return (
             <GeneralTemplate>
-                <MainTitle
-                    mainTitle='Que Documentação?'
-                />
-
-                <TextComponent
-                    textContent='Aqui você pode encontrar dicas de como pesquisar na documentação do seu projeto e encontra todas as documentações'
-                />
-
-
-                <Button
-                    path='about'
-                    btnText='Sobre'
-                />
-                <Button
-                    path='docs'
-                    btnText='Documentação'
-
-                />
-
-
-
+                <div className='homeContainer'>
+                    <MainTitle
+                        mainTitle='Que Documentação?'
+                    />
+                    <TextComponent
+                        textContent='Se você já tentou trabalhar com uma nova linguagem, usar o projeto de outros desenvolvedores ou usar um framework sem olhar a documentação, sabe o quanto é difícil. A documentação nos ajuda a entender quais os objetivos, como usar e como manter as aplicações. Aqui você encontra dicas de como pesquisar, como fazer um README.md e algumas das principais documentações!'
+                    />
+                    {/* <Button
+                        path='about'
+                        btnText='Sobre'
+                    />
+                    <Button
+                        path='docs'
+                        btnText='Documentação'
+                    /> */}
+                </div>
             </GeneralTemplate>
         );
     }
