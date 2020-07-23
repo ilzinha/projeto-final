@@ -1,12 +1,3 @@
-span {
-    font-weight: bold;
-    color: #6494BB;
-   
-}
-.span-link a {
-    color: #6494BB;
-}
-
 .aboutContainer {
     text-align: center;
 }
@@ -15,34 +6,50 @@ span {
     text-align: justify;
     margin: 30px auto;
     width: 700px;
-    
+    font-size: 18px;
+
 }
 
-.textContent--paragraph  {
-    font-size: 16px;
+.textContent p {
     text-align: justify;
     line-height: 29px;
 }
 
+.textContent img {
+    width: 700px;
+}
+
 li {
     line-height: 29px;
- }
+}
 
- .italic{ 
+span {
+    font-weight: bold;
+    color: #6494BB;
+
+}
+
+.span-link a {
+    color: #6494BB;
+}
+
+.italic {
     font-weight: normal;
     font-style: italic;
     color: #4B4B4B;
-    
- }
+}
 
- @media screen and (max-width:610px) {
+@media screen and (max-width:610px) {
     .textContent {
         width: 100%;
-        
     }
-    
-    .textContent--paragraph {
-    margin: 0 30px
 
+    .textContent img {
+        width: 300px;
+        margin: 15px 50px
+    }
+
+    .textContent p {
+        margin: 0 30px
     }
 }
