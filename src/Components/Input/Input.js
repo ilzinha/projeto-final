@@ -1,21 +1,15 @@
 import React from 'react';
-import TextField from '@material-ui/core/TextField';
+import Button from '../Button/Button';
+
+import './Input.css';
 
 
-
-  
-const Input = ({ type, onChange, placeholder, value }) => {
+const Input = ({ type, onChange, placeholder, value, onClick }) => {
     return (
         <div>
-        {/* <input type={type} onChange={onChange}  placeholder={placeholder} value={value}></input> */}
-        <TextField
-        id="standard-textarea"
-        label="Pesquise"
-        placeholder={placeholder}
-        multiline
-        onChange={onChange}
-        type={type}
-      />
+        <input type={type} onChange={onChange}  placeholder={placeholder} value={value}></input>
+        <Button onClick={onClick} btnText="Buscar" />
+      
       </div>
         
     )
