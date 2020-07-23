@@ -18,7 +18,7 @@ class About extends Component {
                         <p>A documentação é um guia que qualquer desenvolvedora e desenvolvedor deve levar para todos os lugares. É o mapa e a bússola de todo profissonal de TI. Durante o processo de aprendizado e desenvolvimento de alguma aplicação, a documentação é importante para o contexto de pesquisas e funcionalidades da linguagem ou framework.</p>
                         <p> Mas o caminho nem sempre é fácil.</p>
                         <img src='https://media.giphy.com/media/Ymtm7S6hu9OJDgyPZ4/giphy.gif' alt='nave voando entre asteroides'></img>
-                        <p>No geral, você precisa ter uma certa familiaridade com cada uma delas e colocar o poder da interpretação para funcionar . Nem sempre as documentações são objetivas e  divididas em tópicos. Sabendo o que procurar, você tem acesso a informações para níveis básicos e avançados. Nesta página, vou te dar algumas dicas de como pesquisar na documentação.
+                        <p>No geral, você precisa ter uma certa familiaridade com cada uma delas e colocar o poder da interpretação para funcionar. Nem sempre as documentações são objetivas e  divididas em tópicos. Sabendo o que procurar, você tem acesso a informações de  níveis mais básicos a avançados. Nesta página, vou te dar algumas dicas de como pesquisar na documentação.
                         </p>
 
                         <ul>
@@ -40,10 +40,12 @@ class About extends Component {
                                 <span>Exemplos</span> - Buscar problemas parecidos com os seus e entender a forma como outras pessoas resolvem pode ser um caminho para a solução. Mas lembre-se: procure entender e não apenas copiar.
                             </li>
                         </ul>
-
-                        <img src='https://media.giphy.com/media/3owzVVCtGOpiC6TNdK/giphy.gif' alt='leia organa dizendo que a força esteja com você'></img>
                         <p>Caso esteja com dificuldades em encontrar alguma documentação, vá para a página de  <span className='span-link'><Link to='/docs' >Documentações</Link></span>!
                         </p>
+                        <br></br>
+                        <br></br>
+                        <p>É isso! Boa sorte e...</p>
+                        <img src='https://media.giphy.com/media/3owzVVCtGOpiC6TNdK/giphy.gif' alt='leia organa dizendo que a força esteja com você'></img>
                     </div>
                 </div>
             </GeneralTemplate>

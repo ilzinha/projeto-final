@@ -39,6 +39,7 @@ span {
     color: #4B4B4B;
 }
 
+
 @media screen and (max-width:610px) {
     .textContent {
         width: 100%;
