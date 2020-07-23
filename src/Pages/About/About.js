@@ -1,18 +1,43 @@
 import React, { Component } from 'react';
 import GeneralTemplate from '../../Template/GeneralTemplate/GeneralTemplate';
-import TextComponent from '../../Components/TextComponent/TextComponent';
 import MainTitle from '../../Components/MainTitle/MainTitle';
+
+import './About.css'
+import { Link } from 'react-router-dom';
 
 class About extends Component {
     render() {
         return (
             <GeneralTemplate>
-                <MainTitle
-                    mainTitle='Sobre'
-                />
-                <TextComponent
-                    textContent='Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo. Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit, sed quia consequuntur magni dolores eos qui ratione voluptatem sequi nesciunt. Neque porro quisquam est, qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit, sed quia non numquam eius modi tempora incidunt ut labore et dolore magnam aliquam quaerat voluptatem. Ut enim ad minima veniam, quis nostrum exercitationem ullam corporis suscipit laboriosam, nisi ut aliquid ex ea commodi consequatur? Quis autem vel eum iure reprehenderit qui in ea voluptate velit esse quam nihil molestiae consequatur, vel illum qui dolorem eum fugiat quo voluptas nulla pariatur?'
-                />
+                <div className='aboutContainer'>
+                    <MainTitle
+                        mainTitle='Dicas'
+                    />
+
+                    <div className='textContent'>
+                        <p className='textContent--paragraph'>A documentação é um guia que qualquer desenvolvedora e desenvolvedor deve levar para todos os lugares. É o mapa e a bússola de todo profissonal de TI. Durante o processo de aprendizado e desenvolvimento de alguma aplicação, a documentação é importante para o contexto de pesquisas e funcionalidades da linguagem ou framework.<br></br>
+                            A maioria das documentações são bem objetivas, divididas em tópicos e possuem informações para níveis básicos e avançados. Nesta página, vou te dar algumas dicas de como pesquisar na documentação.
+                        </p>
+
+                        <ul>
+                            <li>
+                                <span>Inglês</span> - Grande parte das documentações são escritas em ingês e uma parcela pequena está traduzida. Sugiro que você use e abuse do
+                                <span className='span-link'><a href='https://translate.google.com.br/?hl=pt-BR'> Google Tradutor</a></span>;
+                            </li>
+                            <br></br>
+                            <li>
+                                <span>Paravras chaves</span> - As palvras chaves são importantes para facilitar as buscas.
+                                <span className='italic'> Functions, Statements, Classes, Methods e Operators </span> são algumas;
+                            </li>
+                            <br></br>
+                            <li>
+                                <span>Objetivo</span> - Pense primeiramente em qual objetivo final você que atingir. Depois quebre o problema em partes e pense como resolver cada parte utilizando uma função ou algum recurso da linguagem.
+                            </li>
+                        </ul>
+                        <p className='textContent--paragraph'>Caso esteja com dificuldades em encontrar alguma documentação, vá para a página de  <span className='span-link'><Link to='/docs' >Documentações</Link></span>!
+                        </p>
+                    </div>
+                </div>
             </GeneralTemplate>
 
         );
