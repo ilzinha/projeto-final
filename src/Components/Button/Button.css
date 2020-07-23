@@ -3,11 +3,11 @@ button {
     border-radius: 8px;
     background-color: #AF7595;
     border: none;
-    color: #FFFFFF;
+    color: #fff;
     text-align: center;
-    font-size: 20px;
+    font-size: 15px;
     padding: 15px;
-    width: 180px;
+    width: 150px;
     transition: all 0.5s;
     cursor: pointer;
     margin: 7px;
@@ -36,4 +36,8 @@ button:hover span {
 button:hover span:after {
     opacity: 1;
     right: 0;
+}
+
+.btn-span{
+    color: #fff;
 }
