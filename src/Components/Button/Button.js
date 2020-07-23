@@ -5,7 +5,11 @@ import './Button.css';
 const Button = ({ path, btnText, onClick }) => {
     return (
 
-        <Link to={path}><button><span>{btnText}</span></button></Link>
+        <Link to={path}>
+            <button onClick={onClick}>
+                <span className='btn-span'>{btnText}</span>
+            </button>
+        </Link>
     )
 }
 
