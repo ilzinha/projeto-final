@@ -1,0 +1,48 @@
+span {
+    font-weight: bold;
+    color: #6494BB;
+   
+}
+.span-link a {
+    color: #6494BB;
+}
+
+.aboutContainer {
+    text-align: center;
+}
+
+.textContent {
+    text-align: justify;
+    margin: 30px auto;
+    width: 700px;
+    
+}
+
+.textContent--paragraph  {
+    font-size: 16px;
+    text-align: justify;
+    line-height: 29px;
+}
+
+li {
+    line-height: 29px;
+ }
+
+ .italic{ 
+    font-weight: normal;
+    font-style: italic;
+    color: #4B4B4B;
+    
+ }
+
+ @media screen and (max-width:610px) {
+    .textContent {
+        width: 100%;
+        
+    }
+    
+    .textContent--paragraph {
+    margin: 0 30px
+
+    }
+}
