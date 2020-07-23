@@ -1,9 +1,11 @@
 import React from 'react';
 
+import './TextComponent.css'
+
 const TextComponent = ({textContent}) => {
     return (
-        <div>
-            <p>{textContent}</p>
+        <div className='textContainer'>
+            <p className='textContainer--paragraph'>{textContent}</p>
         </div>
     )
 }
