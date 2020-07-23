@@ -1,3 +1,32 @@
 .homeContainer {
     text-align: center;
 }
+
+.textContainer {
+    margin: 30px auto;
+    width: 700px;
+}
+
+.textContainer p {
+    font-size: 18px;
+    text-align: justify;
+    line-height: 29px;
+}
+
+.textContainer img {
+    width: 600px;
+}
+
+@media screen and (max-width:610px) {
+    .textContainer {
+        width: 100%;
+    }
+    .textContainer img {
+        width: 300px;
+        margin: 15px 30px
+    }
+
+    .textContainer p{
+        margin: 0 30px
+    }
+}
