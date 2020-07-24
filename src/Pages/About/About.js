@@ -33,7 +33,7 @@ class About extends Component {
                             </li>
                             <br></br>
                             <li>
-                                <span>Objetivo</span> - Pense primeiramente em qual objetivo final você que atingir. Depois quebre o problema em partes e pense como resolver cada parte utilizando uma função ou algum recurso da linguagem;
+                                <span>Objetivo</span> - Pense primeiramente em qual objetivo final você quer atingir. Depois quebre o problema em partes e pense como resolver cada parte utilizando uma função ou algum recurso da linguagem;
                             </li>
                             <br></br>
                             <li>
