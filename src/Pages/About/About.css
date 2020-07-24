@@ -3,11 +3,14 @@
 }
 
 .textContent {
-    text-align: justify;
     margin: 30px auto;
     width: 700px;
     font-size: 18px;
-
+    
+}
+.textContent ul {
+    margin: 30px ;
+    text-align: justify;
 }
 
 .textContent p {
@@ -21,6 +24,7 @@
 
 li {
     line-height: 29px;
+    list-style-type: circle;
 }
 
 span {
@@ -47,7 +51,8 @@ span {
 
     .textContent img {
         width: 300px;
-        margin: 15px 50px
+        margin: 15px 25px;
+        
     }
 
     .textContent p {
