@@ -26,7 +26,7 @@ const GeneralTemplate = ({ children }) => {
             {children}
 
             <footer className='footer'>
-                <p>2020 Projeto final do Bootcamp da reprograma por <a href='https://ilzinha.github.io/' target='_blank' rel="noopener noreferrer"><span>Ilza Medeiros</span></a></p>
+                <p>2020 - <a href='https://ilzinha.github.io/' target='_blank' rel="noopener noreferrer"><span>Ilza Medeiros</span></a></p>
             </footer>
         </div>
 

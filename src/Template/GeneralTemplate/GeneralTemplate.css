@@ -28,7 +28,7 @@ nav>div {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  padding: 20px;
+  padding: 0 50px;
 }
 
 nav>div>a {
@@ -96,7 +96,7 @@ nav div a p {
   nav {
     width: 100%;
     background: #b0c1cf;
-    padding: 10px 0px;
+    
   }
 
   nav>div {
