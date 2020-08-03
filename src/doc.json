@@ -1,9 +1,33 @@
 [
 	{
+		"type": "markup language",
+		"name": "HTML5",
+		"link": "https://www.w3schools.com/TAGS/default.ASP",
+		"image": "https://cdn.pixabay.com/photo/2017/08/05/11/16/logo-2582748_960_720.png"
+	},
+	{
+		"type": "markup language",
+		"name": "CSS3",
+		"link": "https://www.w3schools.com/css/default.asp",
+		"image": "https://cdn.pixabay.com/photo/2017/08/05/11/16/logo-2582747_960_720.png"
+	},
+	{
+		"type": "style-guide",
+		"name": "SASS",
+		"link": "https://sass-guidelin.es/pt/",
+		"image": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/96/Sass_Logo_Color.svg/1024px-Sass_Logo_Color.svg.png"
+	},
+	{
 		"type": "language",
 		"name": "Javascript",
 		"link": "https://developer.mozilla.org/pt-BR/docs/Web/JavaScript",
 		"image": "https://image.flaticon.com/icons/svg/919/919828.svg"
+	},
+	{
+		"type": "library",
+		"name": "Jquery",
+		"link": "https://api.jquery.com/",
+		"image": "https://i.dlpng.com/static/png/348405_preview.png"
 	},
 	{
 		"type": "framework",
@@ -99,7 +123,7 @@
 		"type": "language",
 		"name": "Node.JS",
 		"link": "https://nodejs.org/pt-br/docs/",
-		"image": "https://pplware.sapo.pt/wp-content/uploads/2016/05/nodejs_04_thumb.jpg"
+		"image": "https://pluspng.com/img-png/nodejs-logo-png-nice-images-collection-node-js-desktop-wallpapers-370.png"
 	},
 	{
 		"type": "language",
@@ -111,6 +135,31 @@
 		"type": "framework",
 		"name": "Echo",
 		"link": "https://echo.labstack.com/",
-		"image": "https://cdn.labstack.com/images/echo-logo.svg"
+		"image": "https://labstack.com/_nuxt/icons/icon_512.971961.png"
+	},
+	{
+		"type": "package",
+		"name": "Yarn",
+		"link": "https://classic.yarnpkg.com/en/",
+		"image": "https://start.jcolemorrison.com/content/images/2017/01/yarn-logo.png"
+	},
+	{
+		"type": "package",
+		"name": "Npm",
+		"link": "https://docs.npmjs.com/",
+		"image": "https://authy.com/wp-content/uploads/npm-logo.png"
+	},
+	{
+		"type": "toolkit",
+		"name": "Bootstrap",
+		"link": "https://getbootstrap.com/",
+		"image": "https://upload.wikimedia.org/wikipedia/commons/thumb/b/b2/Bootstrap_logo.svg/1024px-Bootstrap_logo.svg.png"
+	}, 
+	{
+		"type": "software",
+		"name": "Docker",
+		"link": "https://docs.docker.com/",
+		"image": "https://www.docker.com/sites/default/files/d8/2019-07/vertical-logo-monochromatic.png"
 	}
+	
 ]
