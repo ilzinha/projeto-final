@@ -4,15 +4,22 @@ import Button from '../Button/Button';
 import './Input.css';
 
 
-const Input = ({ type, onChange, placeholder, value, onClick }) => {
-    return (
-        <div>
-        <input type={type} onChange={onChange}  placeholder={placeholder} value={value}></input>
-        <Button onClick={onClick} btnText="Buscar" />
-      
+const Input = ({ type, onChange, placeholder, value, onClick, refresh }) => {
+  return (
+    <div className="inputContainer">
+
+      <div >
+        <input type={type} onChange={onChange} placeholder={placeholder} value={value}></input>
       </div>
-        
-    )
+
+      <div>
+        <Button onClick={refresh} btnText="Ver todos" />
+        <Button onClick={onClick} btnText="Buscar" />
+      </div>
+
+    </div>
+
+  )
 }
 
 export default Input;

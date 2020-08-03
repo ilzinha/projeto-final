@@ -20,31 +20,39 @@ class Docs extends Component {
 
     componentDidMount = async () => {
         const getDocs = await this.props.docs;
-
         this.setState({ docs: getDocs });
     };
 
-    onChange = async (e) => {
+    handleChange = async (e) => {
         this.setState({ inputValue: e.target.value });
     };
+    
+    onClick = async (e) => {
+        e.preventDefault()
 
-    onClick = async () => {
         const { inputValue } = this.state;
         const { docs } = this.props;
-       
-
+        
+        
+        
         if (inputValue && docs.length) {
             const result = await docs.filter((item) =>
-                item.name.toLowerCase().includes(inputValue.toLocaleLowerCase())
+            item.name.toLowerCase().includes(inputValue.toLocaleLowerCase())
             );
 
             if (result.length === 0) {
-                this.setState({ inputValue: '', docs: [], error: "Não encontrado!" });
+                this.setState({ docs: [], error: "Não encontrado!" });
             } else {
-                this.setState({ inputValue: '', docs: result, error: "" });
+                this.setState({ docs: result, error: "" });
             }
-        }
+        } 
+        
     };
+
+    handleRefresh = () => {
+        const getDocs = this.props.docs;
+        this.setState({ docs: getDocs });
+    }
 
     render() {
         const { docs, inputValue, error } = this.state;
@@ -56,13 +64,12 @@ class Docs extends Component {
                     <div className='inputSection'>
                         <Input
                             type="text"
-                            onChange={this.onChange}
+                            onChange={this.handleChange}
                             placeholder="Digite o que você procura!"
                             value={inputValue}
                             onClick={this.onClick}
+                            refresh={this.handleRefresh}
                         />
-                        {/* <Button onClick={this.onClick} btnText="Buscar" /> */}
-
                     </div>
 
                     <section>
