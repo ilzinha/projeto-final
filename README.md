@@ -1,3 +1,16 @@
+# Que documentação?
+
+### Deploy: 
+[https://quedocs.netlify.app/](https://quedocs.netlify.app/)
+
+### npx create-react-app [nome-do-projeto]
+Run this command to create a new project
+
+### Requirements:
+[React Router](https://reactrouter.com/web/guides/quick-start)
+
+
+
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
 ## Available Scripts
